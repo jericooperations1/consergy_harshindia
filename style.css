@@ -1,0 +1,390 @@
+ body {
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .navbar {
+   background-color: #fff;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+ }
+
+ .navbar-brand img {
+   height: 60px;
+   margin-right: 10px;
+ }
+
+ .hero {
+   background-color: #f9fafc;
+   padding: 100px 0;
+ }
+
+ .hero h1 {
+   font-weight: 700;
+   color: #009bbd;
+   font-size: 3rem;
+ }
+
+ .hero p {
+   font-size: 1.1rem;
+   color: #555;
+ }
+
+ .btn-primary {
+   background-color: #009bbd;
+   border: none;
+ }
+
+ .btn-primary:hover {
+   background-color: #007a94;
+ }
+
+ /* Services Section */
+ .services {
+   color: #fff;
+   text-align: left;
+ }
+
+ .service-box {
+   padding: 40px 30px;
+   height: 100%;
+ }
+
+ .service-box h4 {
+   font-weight: 700;
+   margin-top: 15px;
+ }
+
+ .service-box p {
+   font-size: 15px;
+   line-height: 1.7;
+ }
+
+ .service-blue-1 {
+   background-color: #0788ad;
+ }
+
+ .service-blue-2 {
+   background-color: #039dbd;
+ }
+
+ .service-blue-3 {
+   background-color: #03b5c7;
+ }
+
+ .service-yellow {
+   background-color: #fcd036;
+   color: #000;
+ }
+
+ .service-yellow h4 {
+   color: #000;
+ }
+
+ .service-yellow p,
+ .service-yellow small {
+   color: #333;
+ }
+
+ /* About Section */
+ .about {
+   padding: 100px 0;
+   background-color: #fff;
+ }
+
+ .about img {
+   border: 8px solid #fcd036;
+   border-radius: 4px;
+ }
+
+ .about .section-title {
+   color: #009bbd;
+   font-weight: 700;
+   font-size: 2rem;
+ }
+
+ .about .highlight {
+   color: #009bbd;
+ }
+
+ .about .icon-box i {
+   color: #009bbd;
+   font-size: 2rem;
+   margin-right: 10px;
+ }
+
+ .about small {
+   color: #fcd036;
+   font-weight: 600;
+   letter-spacing: 1px;
+ }
+
+ /* Stats Section */
+ .stats {
+   background-color: #f9fafc;
+   padding: 60px 0;
+   text-align: center;
+ }
+
+ .stats h2 {
+   color: #009bbd;
+   font-weight: 700;
+ }
+
+ .stats p {
+   color: #555;
+   margin-bottom: 0;
+ }
+
+ /* Steps Section */
+ .steps {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .steps .text-side {
+   background-color: #009bbd;
+   color: #fff;
+   padding: 80px 50px;
+   flex: 1;
+ }
+
+ .steps .text-side h2 {
+   font-weight: 700;
+   margin-bottom: 20px;
+ }
+
+ .steps .text-side ol {
+   margin-top: 30px;
+   padding-left: 18px;
+ }
+
+ .steps .text-side li {
+   margin-bottom: 20px;
+   line-height: 1.6;
+ }
+
+ .steps .img-side {
+   flex: 1;
+ }
+
+ .steps .img-side img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+
+ /* Additional Services Section */
+ .extra-services {
+   background-color: #f5f5f5;
+   padding: 100px 0;
+   text-align: center;
+ }
+
+ .extra-services small {
+   color: #fcd036;
+   font-weight: 600;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+ }
+
+ .extra-services h2 {
+   color: #009bbd;
+   font-weight: 700;
+   margin-bottom: 10px;
+ }
+
+ .extra-services p {
+   color: #777;
+   margin-bottom: 40px;
+ }
+
+ .extra-services .card {
+   border: none;
+   border-radius: 0;
+   transition: all 0.3s ease;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+ }
+
+ .extra-services .card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+ }
+
+ .extra-services .card-body {
+   text-align: left;
+ }
+
+ .extra-services .card-title {
+   font-weight: 700;
+   margin-top: 10px;
+ }
+
+ .extra-services .learn-more {
+   color: #fcd036;
+   text-decoration: none;
+   font-weight: 600;
+ }
+
+ .extra-services .learn-more i {
+   font-size: 0.9rem;
+ }
+
+
+ .cta-section {
+   background-color: #fcd036;
+   text-align: center;
+   padding: 40px 20px;
+ }
+
+ .cta-section h4 {
+   color: #000;
+   font-weight: 700;
+   margin-bottom: 15px;
+ }
+
+ .cta-section .btn {
+   background-color: #009bbd;
+   color: #fff;
+   border: none;
+ }
+
+ .cta-section .btn:hover {
+   background-color: #007a94;
+ }
+
+ /* Video Section */
+ /* .video-section {
+      position: relative;
+      background: url('https://www.totalairservice.com/wp-content/uploads/2021/06/ac-remote-control.jpg') center center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+    .video-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.6);
+    }
+    .video-content {
+      position: relative;
+      text-align: center;
+      z-index: 1;
+    }
+    .video-content .play-btn {
+      background-color: #fcd036;
+      color: #000;
+      font-size: 2rem;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 15px;
+    }
+    .video-content h3 {
+      font-weight: 700;
+    } */
+
+ .video-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-section h3 {
+  font-weight: 700;
+}
+
+.carousel video {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Make Carousel Buttons Visible */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 20px;
+  filter: invert(1);
+}
+
+.custom-control {
+  width: 60px;
+}
+
+/* Add hover effect for better visibility */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: rgba(255, 193, 7, 0.9); /* yellow glow */
+  filter: none;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+
+
+ /* Footer Section */
+ .footer {
+   background-color: #2b2b2b;
+ }
+
+ .footer h6 {
+   border-bottom: 2px solid #00b4d8;
+   display: inline-block;
+   padding-bottom: 5px;
+ }
+
+ .footer-link {
+   color: #ccc;
+   text-decoration: none;
+   transition: color 0.2s ease;
+ }
+
+ .footer-link:hover {
+   color: #00b4d8;
+   text-decoration: none;
+ }
+
+ .footer img {
+   filter: brightness(0) invert(1);
+ }
+
+ .footer small.text-muted {
+   color: #aaa !important;
+ }
+
+
+
+ @media (max-width: 767px) {
+   .hero {
+     text-align: center;
+   }
+
+   .hero img {
+     margin-top: 30px;
+   }
+
+   .about {
+     text-align: center;
+   }
+
+   .about img {
+     margin-bottom: 30px;
+   }
+
+   .steps {
+     flex-direction: column;
+   }
+ }
