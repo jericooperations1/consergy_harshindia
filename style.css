@@ -51,11 +51,13 @@
  .service-box h4 {
    font-weight: 700;
    margin-top: 15px;
+   color: #000;
  }
 
  .service-box p {
    font-size: 15px;
    line-height: 1.7;
+   color: #000;
  }
 
  .service-blue-1 {
@@ -172,6 +174,13 @@
    object-fit: cover;
  }
 
+
+ .learn-more {
+   color: #009bbd;
+   font-weight: 600;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+ }
 
  /* Additional Services Section */
  .extra-services {
@@ -292,46 +301,47 @@
     } */
 
  .video-section {
-  position: relative;
-  overflow: hidden;
-}
+   position: relative;
+   overflow: hidden;
+ }
 
-.video-section h3 {
-  font-weight: 700;
-}
+ .video-section h3 {
+   font-weight: 700;
+ }
 
-.carousel video {
-  max-height: 400px;
-  object-fit: cover;
-}
+ .carousel video {
+   max-height: 400px;
+   object-fit: cover;
+ }
 
-/* Make Carousel Buttons Visible */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 50%;
-  padding: 20px;
-  filter: invert(1);
-}
+ /* Make Carousel Buttons Visible */
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 50%;
+   padding: 20px;
+   filter: invert(1);
+ }
 
-.custom-control {
-  width: 60px;
-}
+ .custom-control {
+   width: 60px;
+ }
 
-/* Add hover effect for better visibility */
-.carousel-control-prev:hover .carousel-control-prev-icon,
-.carousel-control-next:hover .carousel-control-next-icon {
-  background-color: rgba(255, 193, 7, 0.9); /* yellow glow */
-  filter: none;
-}
+ /* Add hover effect for better visibility */
+ .carousel-control-prev:hover .carousel-control-prev-icon,
+ .carousel-control-next:hover .carousel-control-next-icon {
+   background-color: rgba(255, 193, 7, 0.9);
+   /* yellow glow */
+   filter: none;
+ }
 
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 50%;
-  padding: 20px;
-}
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+   background-color: rgba(0, 0, 0, 0.6);
+   border-radius: 50%;
+   padding: 20px;
+ }
 
 
 
