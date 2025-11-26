@@ -405,28 +405,30 @@
  .carousel {
 
    margin: 0 auto;
-    padding: 20px 0;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
+   padding: 20px 0;
+   width: 100%;
+   overflow: hidden;
+   display: flex;
+
    >* {
      flex: 0 0 100%;
    }
 
-     &:hover .group {
-      animation-play-state: paused;
-    }
+   &:hover .group {
+     animation-play-state: paused;
+   }
  }
 
  .group {
    display: flex;
    gap: 20px;
    padding-right: 20px;
-    will-change: transform; /* We should be nice to the browser - let it know what we're going to animate. */
-    animation: scrolling 18s linear infinite;
+   will-change: transform;
+   /* We should be nice to the browser - let it know what we're going to animate. */
+   animation: scrolling 18s linear infinite;
  }
 
- .card {
+ .company-card {
    width: 100%;
    /* color: rgba(255, 255, 255, 0); */
    border: none;
@@ -440,11 +442,37 @@
  }
 
 
-  @keyframes scrolling {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
+ @keyframes scrolling {
+   0% {
+     transform: translateX(0);
+   }
+
+   100% {
+     transform: translateX(-100%);
+   }
+ }
+
+ .service-list li {
+   padding: 10px 0;
+   border-bottom: 1px solid #ddd;
+   list-style: none;
+   position: relative;
+   padding-left: 25px;
+ }
+
+ .service-list li::before {
+   content: "";
+   width: 10px;
+   height: 10px;
+   border: 2px solid #555;
+   border-radius: 50%;
+   position: absolute;
+   left: 0;
+   top: 13px;
+ }
+
+
+ .benefit-icon{
+  width: 200px;
+  height: 200px;
+ }
