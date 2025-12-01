@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbxoaAwaIUqKirT9TID03dDGdvOVIcnMOlknTJtSJfmtVyIVORE17Bzmlpy9pIAm35_w/exec"; 
+const scriptURL = "https://script.google.com/macros/s/AKfycbxoaAwaIUqKirT9TID03dDGdvOVIcnMOlknTJtSJfmtVyIVORE17Bzmlpy9pIAm35_w/exec";
 document.getElementById("myForm").addEventListener("submit", e => {
     e.preventDefault();
 
@@ -14,7 +14,7 @@ document.getElementById("myForm").addEventListener("submit", e => {
 
     fetch(scriptURL, {
         method: "POST",
-        mode:'no-cors',
+        mode: 'no-cors',
         body: JSON.stringify(formData),
         headers: {
             "Content-Type": "application/json"

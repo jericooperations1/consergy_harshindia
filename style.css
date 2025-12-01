@@ -472,7 +472,27 @@
  }
 
 
- .benefit-icon{
-  width: 200px;
-  height: 200px;
+ .benefit-icon {
+   width: 200px;
+   height: 200px;
+ }
+
+
+ .pricing-card {
+   background: #f2f2f2;
+   border-radius: 8px;
+   padding: 40px 20px;
+   text-align: center;
+   transition: 0.3s;
+ }
+
+ .pricing-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+ }
+
+ .price {
+   font-size: 28px;
+   font-weight: 700;
+   margin: 10px 0;
  }
